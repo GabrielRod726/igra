@@ -1,0 +1,13 @@
+[package]
+name = "igra"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ansi_term = "0.12.1"
+
+[dev-dependencies]
+# Para asserts mais ricos
+pretty_assertions = "1.4"  
+# Para testes com cores (opcional)
+colored = "2.1"
